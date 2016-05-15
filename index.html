@@ -40,7 +40,8 @@
 
 Let's code.
 
-`class mijnErrorHandler{
+```php
+class mijnErrorHandler{
     function err($err){
         var_dump($err);
     }
@@ -48,7 +49,8 @@ Let's code.
 
 //Here's definition of error handler in Micro then:
 
-$app->error([new mijnErrorHandler(), 'err']);`
+$app->error([new mijnErrorHandler(), 'err']);
+```
 
 
 </p>
